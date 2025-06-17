@@ -1,0 +1,40 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+}
+.download {
+    background-color: #FF5678;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white !important;
+
+}
+.download:hover {
+    color: black !important;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    font-size: xx-large;
+}
+.content-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+}
+
+p {
+    text-align: left;
+    font-weight: lighter;
+}
+h2 {
+    font-size: 70px;
+}
+img {
+    width: 300px;
+}

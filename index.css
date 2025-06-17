@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    font-family: Poppins, sans-serif;
+
+}
+
+
+.content {  
+    width: 90%;
+    display: flex;
+    flex: 1;
+    font-size: xx-large;
+    margin: 0 auto;
+}
+
+
+
+.content h6 {
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em ;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.content h5 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: lighter;
+    width: 100%;
+
+}
+.content-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: left;
+    text-align: left;
+
+}
+
+.content-right {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.content-left h3 {
+    font-size: 0.7em;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.gobble-home {
+    max-width: 300px;
+    height: auto;
+}
+
+.content .apple-download {
+    width: 300px;
+    margin-top: 3.28em;
+
+
+}
+.contact-us {
+    background-color: #FF5678;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.icon-container {
+    display: flex;
+    justify-content: center
+}

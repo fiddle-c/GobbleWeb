@@ -1,0 +1,69 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+}
+h3 {
+        transition: transform 0.2s ease-in-out;
+
+}
+h3:hover {
+    color: #FF5678;
+    transform: scale(1.05);
+}
+
+.intro-content {
+    text-align: center;    
+
+    margin: 0 auto;
+    font-size: xx-large;
+
+}
+.intro-content p {
+    text-align: center;
+}
+
+.content {
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+
+}
+
+.left-content {
+
+
+}
+
+.left-content p {
+    text-align: center;
+    width: 70%
+}
+
+.right-content {
+
+}
+
+.right-content p {
+    text-align: center;
+    font-weight: lighter;
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: left;
+    font-weight: lighter;
+}
+h2 {
+    font-size: 70px;
+}
+
+
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
