@@ -25,6 +25,7 @@ padding: 10px;
 .nav-bar {
 width: 100%;
 display: flex; 
+padding: 0 1em;
 justify-content: space-between;
 
 }
