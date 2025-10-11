@@ -1,64 +1,13 @@
-header {
-padding: 10px;
-}
 
-#title {
-    font-size: 3em;
-    font-weight: 400px;
-    color: #07020D;
-}
 
-#download {
-    background-color: #FF5678;
-    border-radius: 18px;
-    padding: 10px; 
-    color: white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-.nav-links {
+.contact {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.nav-bar {
-width: 100%;
-display: flex; 
-padding: 0 1em;
-justify-content: space-between;
-
-}
-
-.nav-bar a {
-        text-decoration: none;
-
-    font-size: 1.5em;
-    color: #07020D;
-    text-decoration: none;
-    font-weight: 500;
-}
-.nav-bar a:hover {
-    text-decoration: none;
-    color: #07020D;
-    transform: scale(1.2);
+    flex-direction: column;
+    line-height: 1.5;
 }
 
 a {
     text-decoration: none;
-    transition: transform 0.2s ease;
+        color: black;
 
-    color: black;
-
-}
-
-a:hover {
-    color: #FF5678;
-    transform: scale(1.2);
-
-}
-
-
-.download:hover {
-    color: white !important;
 }

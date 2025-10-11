@@ -2,39 +2,77 @@ body {
     background-color: #FFFFFF;
     font-family: Poppins, sans-serif;
 }
-.download {
-    background-color: #FF5678;
-    padding: 10px 20px;
-    border-radius: 8px;
-    color: white !important;
-
+.text-content {
+    padding: 2em;
 }
 .download:hover {
     color: black !important;
 }
-.content {
-    width: 90%;
-    margin: 0 auto;
+.feature-block {
     display: flex;
-    font-size: xx-large;
+    flex-direction: row;
+    align-items: center;
 }
-.content-left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 100%;
-}
-
-p {
+.feature-block p {
     text-align: left;
     font-weight: lighter;
+    line-height: 1.5em;
+}
+
+
+.content {
+    max-width: 900px;
+    margin: auto auto;
+    display: flex;
+    
+    padding: 1em;
+    flex-direction: column;
+
+    
+}
+.content-left {
+order: 1
+ 
+}
+.content-right {
+    order: 2;
 }
 h2 {
-    font-size: 70px;
+    font-size: 2.5em;
+    margin: 0 0;
 }
 img {
-    width: 300px;
+    width: 100%;
+    max-width: 500px;
+}
+.content h1 {
+    align-self: flex-start;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+@media(max-width: 600px) {
+    .content {
+        margin: auto auto;
+        align-items: center;
+    }
+    .content img {
+        padding-bottom: 2em;
+            max-width: 350px;
+
+    }
+    .text-content {
+        padding: 0;
+    }
+    .feature-block {
+        flex-direction: column;
+        padding: 0 2em;
+    }
+    .content-left {
+order: 1;        
+    }
+    .content-right {
+order: 1;        
+        
+    }
 }

@@ -1,60 +1,61 @@
 html, body {
-    height: 100%;
-    font-family: Poppins, sans-serif;
 
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    
 }
 
 
 .content {  
-    width: 90%;
     display: flex;
-    flex: 1;
-    font-size: xx-large;
-    margin: 0 auto;
+    
+
 }
 
 
-
+.container {
+    
+    margin: 1em;
+}
 .content h6 {
     width: 100%;
     text-align: center;
-    font-size: 0.7em ;
+    font-size: 1em ;
     font-weight: 400;
     margin: 20px 0;
 }
 
 .content h5 {
     font-size: 1.5em;
-    margin: 20px 0;
+    margin: auto auto;
+    
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
     font-weight: lighter;
-    width: 100%;
+    max-width: 500px; 
 
 }
 .content-left {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    align-items: left;
-    text-align: left;
-
+    margin: auto auto;
+    
 }
 
 .content-right {
-    flex: 1;
-    display: flex;
-    justify-content: right;
+    
+    align-self: center;
+
+    
 
 
 }
 
 .content-left h3 {
-    font-size: 0.7em;
+    font-size: 1.2em;
     font-weight: 400;
     width: 100%;
     text-align: center;
@@ -63,8 +64,10 @@ html, body {
 
 
 .gobble-home {
+    
     max-width: 300px;
-    height: auto;
+
+    
 }
 
 .content .apple-download {
@@ -74,8 +77,10 @@ html, body {
 
 }
 .contact-us {
+    
     background-color: #FF5678;
-    padding: 10px 20px;
+    margin-top: 5em;
+    padding: 0.5em;
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
@@ -83,5 +88,22 @@ html, body {
 }
 .icon-container {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    gap: 2em;
+    
+    
+}
+
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+    .content h5 {
+        margin: auto auto;
+        font-size: 1.9em;
+    }
+    .content-right {
+        justify-content: center;
+    }
 }
