@@ -87,23 +87,7 @@ a:hover {
 
 </style>
 
-    <nav class="nav-bar">
 
-<span class="recipe-header">
-            <img src="/assets/gobbleFrog.png" alt="frog-icon" class="gobble-frog"/>
-            <a id="title" href="index.html">
-                Recipe Exchange
-            </a>
-            
-        </span>
-            <div class="nav-links">
-                <a href="Features.html">Features</a>
-                <a href="About.html">About</a>
-                <a href="PrivacyPolicy.html">Privacy Policy</a>
-                <a id="download" href="">Download</a>
-            </div>
-
-        </nav>
     
 `
 
