@@ -43,7 +43,7 @@ h2 {
 }
 img {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
 }
 .content h1 {
     align-self: flex-start;
