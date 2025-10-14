@@ -11,7 +11,7 @@ template.innerHTML = `
 }
 
 #download {
-    background-color: #FF5678;
+    background-color: #a3737dff;
     border-radius: 13px;
     padding: 10px; 
     color: white;
